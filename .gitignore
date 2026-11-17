@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# PyTorch / Ultralytics
+runs/
+*.pt
+!models/best.pt
+!models/yolov8n.pt
+
+# Datasets & Large Archives
+dataset/images/train/*
+dataset/images/val/*
+dataset/labels/train/*
+dataset/labels/val/*
+*.zip
+*.tar.gz
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code / IDE
+.vscode/
+.idea/
